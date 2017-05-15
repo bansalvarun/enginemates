@@ -7,7 +7,7 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 	
 	window.onload = function () {
-		document.getElementById('loading-mask').style.display = 'none';
+		// document.getElementById('loading-mask').style.display = 'none';
 	}
 
 	/* =========================================================================== */
@@ -164,12 +164,12 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 	/*	Twitter Feed
 	/* ========================================================================= */
-	
-	$(".tweet").twittie({
-        dateFormat: "%b. %d, %Y",
-        template: "{{tweet}}",
-        count: 1
-    });
+	// @vb commented ir
+	// $(".tweet").twittie({
+ //        dateFormat: "%b. %d, %Y",
+ //        template: "{{tweet}}",
+ //        count: 1
+ //    });
 
 
 	/* ========================================================================= */
@@ -397,8 +397,8 @@ jQuery(function ($) { "use strict";
 		map.mapTypes.set('roadatlas', usRoadMapType);
 		map.setMapTypeId('roadatlas');
 	}
-
-	google.maps.event.addDomListener(window, "load", initialize);
+// @vb commented it
+	// google.maps.event.addDomListener(window, "load", initialize);
 
 
 });
